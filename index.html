@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guardião das Senhas Obscuras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Guardião das Senhas Obscuras</h1>
+        <div class="password-container">
+            <input type="password" id="entradaSenha" placeholder="Insira sua senha">
+            <span id="mostrarSenha">👁️ Mostrar Senha</span>
+        </div>
+
+        <div id="medidorPoder"></div>
+
+        <div id="requisitos">
+            <div id="requisitoComprimento" class="requisito">Comprimento: mínimo 8 caracteres</div>
+            <div id="requisitoMinuscula"  class="requisito">Pelo menos uma letra minúscula</div>
+            <div id="requisitoMaiscula"  class="requisito">Pelo menos uma letra maiúscula</div>
+            <div id="requisitoNumero"  class="requisito">Pelo menos um número</div>
+            <div id="requisitoSimbolo"  class="requisito">Pelo menos um símbolo obscuro</div>
+        </div>
+
+        <div id="textoPoder"></div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
